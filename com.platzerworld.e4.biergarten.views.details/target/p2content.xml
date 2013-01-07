@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.platzerworld.e4.biergarten.views.details' version='0.0.1.201301071246'>
+    <update id='com.platzerworld.e4.biergarten.views.details' range='[0.0.0,0.0.1.201301071246)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Details'/>
+      <property name='org.eclipse.equinox.p2.provider' value='PLATZERWORLD'/>
+      <property name='maven-groupId' value='com.platzerworld.e4.biergarten'/>
+      <property name='maven-artifactId' value='com.platzerworld.e4.biergarten.views.details'/>
+      <property name='maven-version' value='0.0.1-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.platzerworld.e4.biergarten.views.details' version='0.0.1.201301071246'/>
+      <provided namespace='osgi.bundle' name='com.platzerworld.e4.biergarten.views.details' version='0.0.1.201301071246'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='11'>
+      <required namespace='osgi.bundle' name='javax.inject' range='1.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.swt' range='3.6.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.databinding' range='1.3.100'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.databinding.beans' range='1.2.100'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jface.databinding' range='1.4.0'/>
+      <required namespace='osgi.bundle' name='com.platzerworld.e4.biergarten.model' range='0.0.1'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.di' range='0.9.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.ui.services' range='0.9.1'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.databinding.property' range='1.4.100'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.services' range='1.0.0'/>
+      <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.views.details' version='0.0.1.201301071246'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.platzerworld.e4.biergarten.views.details;singleton:=true&#xA;Bundle-Version: 0.0.1.201301071246&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -114,6 +114,7 @@ public class SucheComposite extends Composite {
 			public void selectionChanged(SelectionChangedEvent event) {
 		        IStructuredSelection selection = (IStructuredSelection) event.getSelection();
 		        selectionService.setSelection(selection.getFirstElement());
+		        //partService.showPart(partService.createPart("codeId"), PartState.ACTIVATE);
 		    }
 		  });
 
@@ -130,6 +131,7 @@ public class SucheComposite extends Composite {
 		List result = biergartenService.getAllContacts();		
      	tableViewer.setInput(result);
      	
+     	/*
      	Connection conn = null;
 		try {
 			conn = getConnection();
@@ -180,6 +182,7 @@ public class SucheComposite extends Composite {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		*/
 	}	
 	
 	private static Connection getConnection() throws Exception {

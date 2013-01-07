@@ -15,7 +15,6 @@
 	<module>../com.platzerworld.e4.biergarten</module>
 	<module>../com.platzerworld.e4.biergarten.feature</module>
 	<module>../com.platzerworld.e4.biergarten.product</module>
-	<module>../com.platzerworld.e4.biergarten.target</module>
 	<module>../com.platzerworld.e4.biergarten.login</module>
 	<module>../com.platzerworld.e4.biergarten.logging</module>
 	<module>../com.platzerworld.e4.biergarten.logging.config</module>
@@ -26,6 +25,8 @@
 	<module>../com.platzerworld.e4.framework.springframework.ws</module>
 	<module>../com.platzerworld.e4.framework.database.oracle</module>
 	<module>../com.platzerworld.e4.framework.database.db2</module>
+	<module>../com.platzerworld.e4.biergarten.views.details</module>
+	<module>../juno-milestone</module>
 	</modules>
   
   <!-- 	<repositories> -->

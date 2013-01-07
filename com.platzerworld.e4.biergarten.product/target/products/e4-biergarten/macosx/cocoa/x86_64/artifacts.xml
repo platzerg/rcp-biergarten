@@ -3,14 +3,14 @@
 <repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1357546472060'/>
+    <property name='p2.timestamp' value='1357562786822'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='80'>
+  <artifacts size='81'>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.services' version='0.10.2.v20120912-132817'>
       <properties size='1'>
         <property name='download.size' value='22175'/>
@@ -46,14 +46,6 @@
         <property name='download.size' value='76651'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.platzerworld.e4.biergarten.feature' version='0.0.1.201301070814'>
-      <properties size='1'>
-        <property name='download.size' value='2788'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='com.ibm.icu' version='4.4.2.v20110823'>
       <properties size='1'>
         <property name='download.size' value='6701200'/>
@@ -84,19 +76,19 @@
         <property name='download.size' value='219655'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.database.oracle' version='0.0.1.201301070814'>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.database.db2' version='0.0.1.201301071246'>
+      <properties size='1'>
+        <property name='download.size' value='6554693'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.logging' version='0.0.1.201301071246'>
+      <properties size='1'>
+        <property name='download.size' value='576599'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.database.oracle' version='0.0.1.201301071246'>
       <properties size='1'>
         <property name='download.size' value='1475445'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.model' version='0.0.1.201301070814'>
-      <properties size='1'>
-        <property name='download.size' value='3496'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.database.db2' version='0.0.1.201301070814'>
-      <properties size='1'>
-        <property name='download.size' value='6554692'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.observable' version='1.4.1.v20120521-2329'>
@@ -109,6 +101,11 @@
         <property name='download.size' value='1367815'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.model' version='0.0.1.201301071246'>
+      <properties size='1'>
+        <property name='download.size' value='3496'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.contexts' version='1.2.0.v20121024-182359'>
       <properties size='1'>
         <property name='download.size' value='47223'/>
@@ -117,6 +114,11 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di.extensions' version='0.11.100.v20121024-182359'>
       <properties size='1'>
         <property name='download.size' value='23002'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.model.mock' version='0.0.1.201301071246'>
+      <properties size='1'>
+        <property name='download.size' value='15024'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.registry' version='3.5.300.v20120731-134527'>
@@ -154,14 +156,14 @@
         <property name='download.size' value='27195'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.views.details' version='0.0.1.201301071246'>
+      <properties size='1'>
+        <property name='download.size' value='7070'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.core' version='0.10.2.v20120917-171812'>
       <properties size='1'>
         <property name='download.size' value='196086'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.apache.commons' version='0.0.1.201301070814'>
-      <properties size='1'>
-        <property name='download.size' value='58647'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.w3c.dom.smil' version='1.0.0.v200806040011'>
@@ -202,9 +204,9 @@
         <property name='download.size' value='32227'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.springframework.ws' version='0.0.1.201301070814'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.renderers.swt.cocoa' version='0.11.0.v20120912-155959'>
       <properties size='1'>
-        <property name='download.size' value='671087'/>
+        <property name='download.size' value='37705'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.commands' version='3.6.1.v20120814-150512'>
@@ -212,14 +214,19 @@
         <property name='download.size' value='108731'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.renderers.swt.cocoa' version='0.11.0.v20120912-155959'>
-      <properties size='1'>
-        <property name='download.size' value='37705'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='javax.inject' version='1.0.0.v20091030'>
       <properties size='1'>
         <property name='download.size' value='12288'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.springframework.ws' version='0.0.1.201301071246'>
+      <properties size='1'>
+        <property name='download.size' value='671088'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.springframework' version='0.0.1.201301071246'>
+      <properties size='1'>
+        <property name='download.size' value='687215'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.preferences' version='3.5.0.v20120918-182152'>
@@ -291,19 +298,14 @@
         <property name='download.size' value='265409'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.login' version='0.0.1.201301070814'>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten' version='0.0.1.201301071246'>
       <properties size='1'>
-        <property name='download.size' value='52326'/>
+        <property name='download.size' value='21211'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di' version='1.2.0.v20121024-173149'>
       <properties size='1'>
         <property name='download.size' value='50961'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.springframework' version='0.0.1.201301070814'>
-      <properties size='1'>
-        <property name='download.size' value='687214'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.swt' version='0.10.2.v20120917-171812'>
@@ -316,9 +318,9 @@
         <property name='download.size' value='198805'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten' version='0.0.1.201301070814'>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.apache.commons' version='0.0.1.201301071246'>
       <properties size='1'>
-        <property name='download.size' value='20985'/>
+        <property name='download.size' value='58647'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.model.workbench' version='0.10.1.v20120523-1955'>
@@ -338,6 +340,14 @@
       <properties size='1'>
         <property name='download.size' value='82001'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.platzerworld.e4.biergarten.feature' version='0.0.1.201301071246'>
+      <properties size='1'>
+        <property name='download.size' value='2810'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jface' version='3.8.200.v20121026-224752'>
       <properties size='1'>
@@ -359,6 +369,11 @@
         <property name='download.size' value='101159'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.login' version='0.0.1.201301071246'>
+      <properties size='1'>
+        <property name='download.size' value='52326'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.renderers.swt' version='0.10.2.v20121019-115226'>
       <properties size='1'>
         <property name='download.size' value='322707'/>
@@ -374,29 +389,19 @@
         <property name='download.size' value='18234'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.logging.config' version='0.0.1.201301071246'>
+      <properties size='1'>
+        <property name='download.size' value='2628'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.w3c.dom.svg' version='1.1.0.v201011041433'>
       <properties size='1'>
         <property name='download.size' value='87897'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.model.mock' version='0.0.1.201301070814'>
-      <properties size='1'>
-        <property name='download.size' value='15024'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.ds' version='1.4.100.v20120924-143455'>
       <properties size='1'>
         <property name='download.size' value='192333'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.logging' version='0.0.1.201301070814'>
-      <properties size='1'>
-        <property name='download.size' value='576598'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.logging.config' version='0.0.1.201301070814'>
-      <properties size='1'>
-        <property name='download.size' value='2628'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.services' version='1.0.0.v20120521-2346'>

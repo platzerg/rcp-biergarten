@@ -134,4 +134,11 @@
          install-size="0"
          version="0.0.0"/>
 
+   <plugin
+         id="com.platzerworld.e4.biergarten.views.details"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>

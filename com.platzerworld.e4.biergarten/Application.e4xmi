@@ -5,6 +5,11 @@
       <children xsi:type="advanced:Perspective" xmi:id="_JRww5UwtEeK_6K-T51jjeg">
         <children xsi:type="basic:PartSashContainer" xmi:id="_JRww5kwtEeK_6K-T51jjeg" horizontal="true">
           <children xsi:type="basic:Part" xmi:id="_A7lqsFHAEeKgAPYq5iV4Ng" elementId="" containerData="10000" contributionURI="bundleclass://com.platzerworld.e4.biergarten/com.platzerworld.e4.biergarten.views.SucheComposite" label="Biergarten"/>
+          <children xsi:type="basic:PartStack" xmi:id="_mEA20Fi7EeKQRYKjyWE6Nw" elementId="PartStack@421d3c0b">
+            <tags>abc</tags>
+            <tags>codeTag</tags>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_y6Rd8FjDEeKQRYKjyWE6Nw" elementId="org.eclipse.e4.tutorial.contacts.partstacks.second"/>
         </children>
       </children>
     </children>
@@ -39,6 +44,7 @@
     <children xmi:id="_JRviwkwtEeK_6K-T51jjeg" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_JRviw0wtEeK_6K-T51jjeg" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
+  <descriptors xmi:id="_LMyOUFi-EeKQRYKjyWE6Nw" elementId="codeId" allowMultiple="true" category="codeTag" closeable="true" contributionURI="bundleclass://com.platzerworld.e4.biergarten/com.platzerworld.e4.biergarten.views.CodeDetailComposite"/>
   <commands xmi:id="_JRviykwtEeK_6K-T51jjeg" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
   <commands xmi:id="_JRwJ00wtEeK_6K-T51jjeg" elementId="com.platzerworld.e4.biergarten.open" commandName="openCommand"/>
   <commands xmi:id="_JRwJ1kwtEeK_6K-T51jjeg" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
