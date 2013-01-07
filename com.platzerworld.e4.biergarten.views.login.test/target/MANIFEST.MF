@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Require-Bundle: org.junit;bundle-version="4.10.0",org.eclipse.core.run
+ time;bundle-version="3.8.0"
+Bundle-Vendor: PLATZERWORLD
+Fragment-Host: com.platzerworld.e4.biergarten.login;bundle-version="0.
+ 0.1.qualifier"
+Bundle-Version: 0.0.1.201212291217
+Bundle-Name: Test
+Bundle-ManifestVersion: 2
+Import-Package: com.platzerworld.e4.biergarten.model.mock
+Bundle-SymbolicName: com.platzerworld.e4.biergarten.views.login.test
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.platzerworld.e4.biergarten.model.mock.bergartenrepository">
+   <implementation class="com.platzerworld.e4.biergarten.model.mock.MockBiergartenRepository"/>
+   <service>
+      <provide interface="com.platzerworld.e4.biergarten.model.BiergartenRepository"/>
+   </service>
+</scr:component>

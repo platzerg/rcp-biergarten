@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Data
+Bundle-SymbolicName: com.platzerworld.e4.biergarten.data
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: PLATZERWORLD
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/component.xml
+Import-Package: org.springframework.web.client,
+ org.springframework.xml.xpath
+Export-Package: com.platzerworld.e4.biergarten.data.domain,
+ com.platzerworld.e4.biergarten.data.interfaces,
+ com.platzerworld.e4.biergarten.data.util

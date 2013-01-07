@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.platzerworld.e4.biergarten.views.login.test' version='0.0.1.201212291217' singleton='false'>
+    <update id='com.platzerworld.e4.biergarten.views.login.test' range='[0.0.0,0.0.1.201212291217)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Test'/>
+      <property name='org.eclipse.equinox.p2.provider' value='PLATZERWORLD'/>
+      <property name='maven-groupId' value='com.platzerworld.e4.biergarten'/>
+      <property name='maven-artifactId' value='com.platzerworld.e4.biergarten.views.login.test'/>
+      <property name='maven-version' value='0.0.1-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.platzerworld.e4.biergarten.views.login.test' version='0.0.1.201212291217'/>
+      <provided namespace='osgi.bundle' name='com.platzerworld.e4.biergarten.views.login.test' version='0.0.1.201212291217'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='osgi.fragment' name='com.platzerworld.e4.biergarten.login' version='0.0.1.201212291217'/>
+    </provides>
+    <requires size='4'>
+      <required namespace='osgi.bundle' name='com.platzerworld.e4.biergarten.login' range='0.0.1.qualifier'/>
+      <required namespace='osgi.bundle' name='org.junit' range='4.10.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.8.0'/>
+      <required namespace='java.package' name='com.platzerworld.e4.biergarten.model.mock' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.views.login.test' version='0.0.1.201212291217'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.platzerworld.e4.biergarten.views.login.test&#xA;Bundle-Version: 0.0.1.201212291217&#xA;Fragment-Host: com.platzerworld.e4.biergarten.login;bundle-version=&quot;0.0.1.qualifier&quot;&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
