@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.login' version='0.0.1.201301070814'>
+  <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.login' version='0.0.1.201301071351'>
     <properties size='5'>
-      <property name='artifact.size' value='52326'/>
-      <property name='download.size' value='52326'/>
+      <property name='artifact.size' value='52333'/>
+      <property name='download.size' value='52333'/>
       <property name='maven-groupId' value='com.platzerworld.e4.biergarten'/>
       <property name='maven-artifactId' value='com.platzerworld.e4.biergarten.login'/>
       <property name='maven-version' value='0.0.1-SNAPSHOT'/>

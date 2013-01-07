@@ -4,7 +4,7 @@ Export-Package: com.platzerworld.e4.biergarten.model.mock,com.platzerw
 Service-Component: OSGI-INF/biergartenrepository.xml
 Bundle-Vendor: PLATZERWORLD
 Bundle-ActivationPolicy: lazy
-Bundle-Version: 0.0.1.201301070814
+Bundle-Version: 0.0.1.201301071351
 Bundle-Name: Mock
 Bundle-ManifestVersion: 2
 Import-Package: com.platzerworld.e4.biergarten.model,org.eclipse.core.

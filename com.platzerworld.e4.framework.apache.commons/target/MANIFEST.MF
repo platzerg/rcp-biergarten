@@ -4,7 +4,7 @@ Export-Package: org.apache.commons.logging,org.apache.commons.logging.
 Bundle-Vendor: PLATZERWORLD
 Bundle-ClassPath: lib/com.springsource.org.apache.commons.logging-1.1.
  1.jar,.
-Bundle-Version: 0.0.1.201301070814
+Bundle-Version: 0.0.1.201301071351
 Eclipse-BuddyPolicy: registered
 Bundle-Name: Commons
 Bundle-ManifestVersion: 2

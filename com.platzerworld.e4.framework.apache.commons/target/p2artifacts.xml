@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.apache.commons' version='0.0.1.201301070814'>
+  <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.apache.commons' version='0.0.1.201301071351'>
     <properties size='5'>
       <property name='artifact.size' value='58647'/>
       <property name='download.size' value='58647'/>

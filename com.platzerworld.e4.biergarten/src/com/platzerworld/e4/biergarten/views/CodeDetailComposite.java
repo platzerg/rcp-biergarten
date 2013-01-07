@@ -9,14 +9,17 @@ import org.eclipse.e4.ui.model.application.ui.basic.MPart;
 import org.eclipse.e4.ui.services.IServiceConstants;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Composite;
-
-import com.platzerworld.e4.biergarten.model.mock.MockBiergarten;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Text;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.platzerworld.e4.biergarten.model.Biergarten;
+import com.platzerworld.e4.biergarten.model.mock.MockBiergarten;
 
 @SuppressWarnings("restriction")
 public class CodeDetailComposite extends Composite {
-
+	private static Logger logger = LoggerFactory.getLogger(CodeDetailComposite.class);
 	private MockBiergarten myCode;
 	@Inject
 	private MPart part;
@@ -63,5 +66,21 @@ public class CodeDetailComposite extends Composite {
 		text.setText(this.myCode.getLastName());
 		text_1.setText(this.myCode.getFirstName());
 		text_2.setText(this.myCode.getEmail());
+	}
+	
+	private void updateUI(Biergarten biergarten){
+		part.setLabel(biergarten.getFirstName());		
+		text.setText(biergarten.getLastName());
+		text_1.setText(biergarten.getFirstName());
+		text_2.setText(biergarten.getEmail());
+	}
+	
+	@Inject
+	public void setSelection(
+			@Optional @Named(IServiceConstants.ACTIVE_SELECTION) Biergarten biergarten) {
+		logger.debug("setSelection with: " + biergarten);
+		if (biergarten != null) {
+			updateUI(biergarten);
+		}
 	}
 }

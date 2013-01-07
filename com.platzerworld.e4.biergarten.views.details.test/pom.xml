@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+    <relativePath>../com.platzerworld.e4.biergarten.build.tycho</relativePath>
+    <groupId>com.platzerworld.e4.biergarten</groupId>
+    <artifactId>com.platzerworld.e4.biergarten.build.tycho</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+	<artifactId>com.platzerworld.e4.biergarten.views.details.test</artifactId>
+	<packaging>eclipse-test-plugin</packaging>
+
+<!-- 
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>2.12.4</version>
+			</plugin>
+		</plugins>
+	</reporting>
+ -->
+
+</project> 

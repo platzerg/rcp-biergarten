@@ -10,7 +10,7 @@ Export-Package: COM.ibm.db2.app,COM.ibm.db2os390.sqlj.custom,COM.ibm.d
  profile.util,sqlj.runtime.ref,sqlj.runtime.util
 Bundle-ClassPath: libs/db2jcc_license_cisuz.jar,libs/db2jcc_license_cu
  .jar,libs/db2jcc.jar,libs/db2jcc4.jar
-Bundle-Version: 0.0.1.201301070814
+Bundle-Version: 0.0.1.201301071351
 Bundle-Name: Db2
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.platzerworld.e4.framework.database.db2

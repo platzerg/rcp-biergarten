@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-Vendor: PLATZERWORLD
 Fragment-Host: com.platzerworld.e4.biergarten.logging;bundle-version="
  0.0.1"
-Bundle-Version: 0.0.1.201301070814
+Bundle-Version: 0.0.1.201301071351
 Bundle-Name: Config
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.platzerworld.e4.biergarten.logging.config

@@ -27,6 +27,9 @@
 	<module>../com.platzerworld.e4.framework.database.db2</module>
 	<module>../com.platzerworld.e4.biergarten.views.details</module>
 	<module>../juno-milestone</module>
+	<module>
+		../com.platzerworld.e4.biergarten.views.details.test
+	</module>
 	</modules>
   
   <!-- 	<repositories> -->
