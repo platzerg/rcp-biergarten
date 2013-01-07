@@ -1,0 +1,103 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.platzerworld.e4.biergarten</groupId>
+  <artifactId>com.platzerworld.e4.biergarten.build.tycho</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <properties>
+		<tycho-version>0.16.0</tycho-version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<modules>
+
+	<module>../com.platzerworld.e4.biergarten</module>
+	<module>../com.platzerworld.e4.biergarten.feature</module>
+	<module>../com.platzerworld.e4.biergarten.product</module>
+	<module>../com.platzerworld.e4.biergarten.target</module>
+	<module>../com.platzerworld.e4.biergarten.login</module>
+	<module>../com.platzerworld.e4.biergarten.logging</module>
+	<module>../com.platzerworld.e4.biergarten.logging.config</module>
+	<module>../com.platzerworld.e4.biergarten.model</module>
+	<module>../com.platzerworld.e4.biergarten.model.mock</module>
+	<module>../com.platzerworld.e4.framework.apache.commons</module>
+	<module>../com.platzerworld.e4.framework.springframework</module>
+	<module>../com.platzerworld.e4.framework.springframework.ws</module>
+	<module>../com.platzerworld.e4.framework.database.oracle</module>
+	<module>../com.platzerworld.e4.framework.database.db2</module>
+	</modules>
+  
+  <!-- 	<repositories> -->
+<!-- 		<repository> -->
+<!-- 			<id>juno</id> -->
+<!-- 			<layout>p2</layout> -->
+<!-- 			<url>http://download.eclipse.org/releases/juno</url> -->
+<!-- 		</repository> -->
+<!-- 	</repositories> -->
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+
+					<target>
+						<artifact>
+							<groupId>target</groupId>
+							<artifactId>juno-milestone</artifactId>
+							<version>0.0.1-SNAPSHOT</version>
+						</artifact>
+					</target>
+
+
+					<environments>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
+							<arch>x86_64</arch>
+						</environment>
+					</environments>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+  
+  
+  
+  
+</project>

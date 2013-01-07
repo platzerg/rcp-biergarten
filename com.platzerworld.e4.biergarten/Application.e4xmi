@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_JRviwEwtEeK_6K-T51jjeg" elementId="org.eclipse.e4.ide.application" bindingContexts="_JRviwUwtEeK_6K-T51jjeg">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_JRwJ3EwtEeK_6K-T51jjeg" label="com.platzerworld.e4.biergarten" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_JRww5EwtEeK_6K-T51jjeg">
+      <children xsi:type="advanced:Perspective" xmi:id="_JRww5UwtEeK_6K-T51jjeg">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_JRww5kwtEeK_6K-T51jjeg" horizontal="true">
+          <children xsi:type="basic:Part" xmi:id="_A7lqsFHAEeKgAPYq5iV4Ng" elementId="" containerData="10000" contributionURI="bundleclass://com.platzerworld.e4.biergarten/com.platzerworld.e4.biergarten.views.SucheComposite" label="Biergarten"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_JRwJ3UwtEeK_6K-T51jjeg" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_JRwJ3kwtEeK_6K-T51jjeg" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JRwJ30wtEeK_6K-T51jjeg" label="Open" iconURI="platform:/plugin/com.platzerworld.e4.biergarten/icons/sample.gif" command="_JRwJ00wtEeK_6K-T51jjeg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JRww4EwtEeK_6K-T51jjeg" label="Save" iconURI="platform:/plugin/com.platzerworld.e4.biergarten/icons/save_edit.gif" command="_JRwJ1kwtEeK_6K-T51jjeg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JRww4UwtEeK_6K-T51jjeg" label="Quit" command="_JRviykwtEeK_6K-T51jjeg"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_JRww4kwtEeK_6K-T51jjeg" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JRww40wtEeK_6K-T51jjeg" label="About" command="_JRwJ2UwtEeK_6K-T51jjeg"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_JRww6EwtEeK_6K-T51jjeg">
+      <children xsi:type="menu:ToolBar" xmi:id="_JRww6UwtEeK_6K-T51jjeg" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JRww6kwtEeK_6K-T51jjeg" iconURI="platform:/plugin/com.platzerworld.e4.biergarten/icons/sample.gif" command="_JRwJ00wtEeK_6K-T51jjeg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JRww60wtEeK_6K-T51jjeg" iconURI="platform:/plugin/com.platzerworld.e4.biergarten/icons/save_edit.gif" command="_JRwJ1kwtEeK_6K-T51jjeg"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_JRwJ0EwtEeK_6K-T51jjeg" contributionURI="bundleclass://com.platzerworld.e4.biergarten/com.platzerworld.e4.biergarten.handlers.QuitHandler" command="_JRviykwtEeK_6K-T51jjeg"/>
+  <handlers xmi:id="_JRwJ1EwtEeK_6K-T51jjeg" contributionURI="bundleclass://com.platzerworld.e4.biergarten/com.platzerworld.e4.biergarten.handlers.OpenHandler" command="_JRwJ00wtEeK_6K-T51jjeg"/>
+  <handlers xmi:id="_JRwJ10wtEeK_6K-T51jjeg" contributionURI="bundleclass://com.platzerworld.e4.biergarten/com.platzerworld.e4.biergarten.handlers.SaveHandler" command="_JRwJ1kwtEeK_6K-T51jjeg"/>
+  <handlers xmi:id="_JRwJ2kwtEeK_6K-T51jjeg" contributionURI="bundleclass://com.platzerworld.e4.biergarten/com.platzerworld.e4.biergarten.handlers.AboutHandler" command="_JRwJ2UwtEeK_6K-T51jjeg"/>
+  <bindingTables xmi:id="_JRwJ0UwtEeK_6K-T51jjeg" bindingContext="_JRviwUwtEeK_6K-T51jjeg">
+    <bindings xmi:id="_JRwJ0kwtEeK_6K-T51jjeg" keySequence="M1+Q" command="_JRviykwtEeK_6K-T51jjeg"/>
+    <bindings xmi:id="_JRwJ1UwtEeK_6K-T51jjeg" keySequence="M1+O" command="_JRwJ00wtEeK_6K-T51jjeg"/>
+    <bindings xmi:id="_JRwJ2EwtEeK_6K-T51jjeg" keySequence="M1+S" command="_JRwJ1kwtEeK_6K-T51jjeg"/>
+    <bindings xmi:id="_JRwJ20wtEeK_6K-T51jjeg" keySequence="M1+A" command="_JRwJ2UwtEeK_6K-T51jjeg"/>
+  </bindingTables>
+  <rootContext xmi:id="_JRviwUwtEeK_6K-T51jjeg" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_JRviwkwtEeK_6K-T51jjeg" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_JRviw0wtEeK_6K-T51jjeg" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_JRviykwtEeK_6K-T51jjeg" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_JRwJ00wtEeK_6K-T51jjeg" elementId="com.platzerworld.e4.biergarten.open" commandName="openCommand"/>
+  <commands xmi:id="_JRwJ1kwtEeK_6K-T51jjeg" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_JRwJ2UwtEeK_6K-T51jjeg" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_JRvixEwtEeK_6K-T51jjeg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_JRvixUwtEeK_6K-T51jjeg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_JRvixkwtEeK_6K-T51jjeg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_JRvix0wtEeK_6K-T51jjeg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_JRviyEwtEeK_6K-T51jjeg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_JRviyUwtEeK_6K-T51jjeg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

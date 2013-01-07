@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: com.platzerworld.e4.biergarten.model
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: PLATZERWORLD
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.eclipse.core.databinding.observable.list
+Export-Package: com.platzerworld.e4.biergarten.model

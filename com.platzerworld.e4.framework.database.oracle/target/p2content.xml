@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.platzerworld.e4.framework.database.oracle' version='0.0.1.201301070814' singleton='false'>
+    <update id='com.platzerworld.e4.framework.database.oracle' range='[0.0.0,0.0.1.201301070814)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='Oracle'/>
+      <property name='maven-groupId' value='com.platzerworld.e4.biergarten'/>
+      <property name='maven-artifactId' value='com.platzerworld.e4.framework.database.oracle'/>
+      <property name='maven-version' value='0.0.1-SNAPSHOT'/>
+    </properties>
+    <provides size='29'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.platzerworld.e4.framework.database.oracle' version='0.0.1.201301070814'/>
+      <provided namespace='osgi.bundle' name='com.platzerworld.e4.framework.database.oracle' version='0.0.1.201301070814'/>
+      <provided namespace='java.package' name='oracle.core.lmx' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.core.lvf' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc.connector' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc.driver' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc.oci' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc.oracore' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc.pool' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc.rowset' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc.util' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc.xa' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jdbc.xa.client' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.jpub.runtime' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.net.TNSAddress' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.net.ano' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.net.aso' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.net.jndi' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.net.nl' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.net.nl.mesg' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.net.ns' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.net.nt' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.net.resolver' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.security.o3logon' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.sql' version='0.0.0'/>
+      <provided namespace='java.package' name='oracle.sql.converter' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.database.oracle' version='0.0.1.201301070814'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.platzerworld.e4.framework.database.oracle&#xA;Bundle-Version: 0.0.1.201301070814&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

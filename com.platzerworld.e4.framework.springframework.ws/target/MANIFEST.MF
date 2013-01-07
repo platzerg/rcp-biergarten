@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.xml,org.springframework.xml.dom,or
+ g.springframework.xml.namespace,org.springframework.xml.sax,org.sprin
+ gframework.xml.stream,org.springframework.xml.transform,org.springfra
+ mework.xml.validation,org.springframework.xml.xpath,org.springframewo
+ rk.xml.xsd,org.springframework.xml.xsd.commons
+Require-Bundle: com.platzerworld.e4.framework.springframework;bundle-v
+ ersion="0.0.1",com.platzerworld.e4.framework.apache.commons;bundle-ve
+ rsion="0.0.1"
+Bundle-Vendor: PLATZERWORLD
+Bundle-ClassPath: lib/spring-ws-1.5.9-all.jar,.
+Bundle-Version: 0.0.1.201301070814
+Eclipse-BuddyPolicy: registered 
+Bundle-Name: Ws
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.platzerworld.e4.framework.springframework.ws
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

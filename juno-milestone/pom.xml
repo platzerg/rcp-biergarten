@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+    <relativePath>../com.platzerworld.e4.biergarten.build.tycho</relativePath>
+    <groupId>com.platzerworld.e4.biergarten</groupId>
+    <artifactId>com.platzerworld.e4.biergarten.build.tycho</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+	<groupId>target</groupId>
+	<artifactId>juno-milestone</artifactId>
+	<packaging>eclipse-target-definition</packaging>
+
+</project> 

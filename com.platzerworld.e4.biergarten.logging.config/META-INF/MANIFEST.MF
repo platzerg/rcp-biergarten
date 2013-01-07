@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Config
+Bundle-SymbolicName: com.platzerworld.e4.biergarten.logging.config
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: PLATZERWORLD
+Fragment-Host: com.platzerworld.e4.biergarten.logging;bundle-version="0.0.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
