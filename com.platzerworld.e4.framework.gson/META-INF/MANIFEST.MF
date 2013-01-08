@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Gson
+Bundle-SymbolicName: com.platzerworld.e4.framework.gson
+Bundle-Version: 0.0.1.qualifier
+Bundle-ClassPath: libs/gson-2.2.2.jar
+Export-Package: com.google.gson,
+ com.google.gson.annotations,
+ com.google.gson.internal,
+ com.google.gson.internal.bind,
+ com.google.gson.reflect,
+ com.google.gson.stream
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

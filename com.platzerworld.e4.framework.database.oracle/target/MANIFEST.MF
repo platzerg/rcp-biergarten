@@ -7,7 +7,7 @@ Export-Package: oracle.core.lmx,oracle.core.lvf,oracle.jdbc,oracle.jdb
  .nl,oracle.net.nl.mesg,oracle.net.ns,oracle.net.nt,oracle.net.resolve
  r,oracle.security.o3logon,oracle.sql,oracle.sql.converter
 Bundle-ClassPath: libs/ojdbc14.jar
-Bundle-Version: 0.0.1.201301080950
+Bundle-Version: 0.0.1.201301081735
 Bundle-Name: Oracle
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.platzerworld.e4.framework.database.oracle

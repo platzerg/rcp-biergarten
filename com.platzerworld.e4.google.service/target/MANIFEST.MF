@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Export-Package: com.platzerworld.e4.google.service.interfaces,com.plat
+ zerworld.e4.google.service.util,com.platzerworld.e4.google.service.do
+ main
+Service-Component: OSGI-INF/component.xml
+Bundle-Vendor: PLATZERWORLD
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 0.0.1.201301081735
+Bundle-Name: Service
+Bundle-ManifestVersion: 2
+Import-Package: com.google.gson,com.google.gson.annotations,com.google
+ .gson.internal,com.google.gson.internal.bind,com.google.gson.reflect,
+ com.google.gson.stream,org.springframework.web.client,org.springframe
+ work.xml.xpath
+Bundle-SymbolicName: com.platzerworld.e4.google.service
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

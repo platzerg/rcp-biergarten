@@ -2,7 +2,7 @@
 <feature
       id="com.platzerworld.e4.biergarten.feature"
       label="Feature"
-      version="0.0.1.201301080950"
+      version="0.0.1.201301081735"
       provider-name="Günter Platzer">
 
    <description url="http://www.example.com/description">
@@ -50,27 +50,27 @@
          id="com.platzerworld.e4.biergarten"
          download-size="24"
          install-size="45"
-         version="0.0.1.201301080950"
+         version="0.0.1.201301081735"
          unpack="false"/>
 
    <plugin
          id="com.platzerworld.e4.biergarten.login"
          download-size="51"
          install-size="53"
-         version="0.0.1.201301080950"/>
+         version="0.0.1.201301081735"/>
 
    <plugin
          id="com.platzerworld.e4.biergarten.logging"
          download-size="563"
          install-size="628"
-         version="0.0.1.201301080950"
+         version="0.0.1.201301081735"
          unpack="false"/>
 
    <plugin
          id="com.platzerworld.e4.biergarten.logging.config"
          download-size="2"
          install-size="1"
-         version="0.0.1.201301080950"
+         version="0.0.1.201301081735"
          fragment="true"
          unpack="false"/>
 
@@ -78,35 +78,35 @@
          id="com.platzerworld.e4.framework.apache.commons"
          download-size="57"
          install-size="61"
-         version="0.0.1.201301080950"
+         version="0.0.1.201301081735"
          unpack="false"/>
 
    <plugin
          id="com.platzerworld.e4.framework.springframework"
          download-size="671"
          install-size="762"
-         version="0.0.1.201301080950"
+         version="0.0.1.201301081735"
          unpack="false"/>
 
    <plugin
          id="com.platzerworld.e4.framework.springframework.ws"
          download-size="655"
          install-size="761"
-         version="0.0.1.201301080950"
+         version="0.0.1.201301081735"
          unpack="false"/>
 
    <plugin
          id="com.platzerworld.e4.biergarten.model"
          download-size="3"
          install-size="2"
-         version="0.0.1.201301080950"
+         version="0.0.1.201301081735"
          unpack="false"/>
 
    <plugin
          id="com.platzerworld.e4.biergarten.model.mock"
          download-size="14"
          install-size="23"
-         version="0.0.1.201301080950"
+         version="0.0.1.201301081735"
          unpack="false"/>
 
    <plugin
@@ -126,26 +126,26 @@
          id="com.platzerworld.e4.framework.database.db2"
          download-size="6401"
          install-size="6720"
-         version="0.0.1.201301080950"/>
+         version="0.0.1.201301081735"/>
 
    <plugin
          id="com.platzerworld.e4.framework.database.oracle"
          download-size="1440"
          install-size="1520"
-         version="0.0.1.201301080950"/>
+         version="0.0.1.201301081735"/>
 
    <plugin
          id="com.platzerworld.e4.biergarten.views.details"
          download-size="6"
          install-size="10"
-         version="0.0.1.201301080950"
+         version="0.0.1.201301081735"
          unpack="false"/>
 
    <plugin
          id="com.platzerworld.e4.geo.service"
          download-size="15"
          install-size="24"
-         version="0.0.1.201301080950"
+         version="0.0.1.201301081735"
          unpack="false"/>
 
 </feature>

@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Service
+Bundle-SymbolicName: com.platzerworld.e4.google.service
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: PLATZERWORLD
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: com.google.gson,
+ com.google.gson.annotations,
+ com.google.gson.internal,
+ com.google.gson.internal.bind,
+ com.google.gson.reflect,
+ com.google.gson.stream,
+ org.springframework.web.client,
+ org.springframework.xml.xpath
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/component.xml
+Export-Package: com.platzerworld.e4.google.service.interfaces,
+ com.platzerworld.e4.google.service.util,
+ com.platzerworld.e4.google.service.domain
+

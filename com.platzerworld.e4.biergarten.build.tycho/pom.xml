@@ -27,10 +27,10 @@
 	<module>../com.platzerworld.e4.framework.database.db2</module>
 	<module>../com.platzerworld.e4.biergarten.views.details</module>
 	<module>../juno-milestone</module>
-	<module>
-		../com.platzerworld.e4.biergarten.views.details.test
-	</module>
+	<module>../com.platzerworld.e4.biergarten.views.details.test</module>
 	<module>../com.platzerworld.e4.geo.service</module>
+	<module>../com.platzerworld.e4.framework.gson</module>
+	<module>../com.platzerworld.e4.google.service</module>
 	</modules>
   
   <!-- 	<repositories> -->

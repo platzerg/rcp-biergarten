@@ -1,5 +1,143 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='62'>
+  <unit id='toolinge4-biergarten.configuration' version='0.0.1.201301081735'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.configuration' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='26'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.equinox.ds' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.gtk.linux.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.win32.win32.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.ini.cocoa.macosx.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.cocoa.macosx.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.equinox.event' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.core.runtime' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.equinox.ds' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.core.runtime' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.equinox.ds' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.equinox.event' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.gtk.linux.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.equinox.event' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.core.runtime' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.cocoa.macosx.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.equinox.event' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.core.runtime' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.equinox.event' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.equinox.ds' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.ini.cocoa.macosx.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.win32.win32.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.core.runtime' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.equinox.ds' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.equinox.event' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.equinox.ds' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
   <unit id='tooling.source.default' version='1.0.0' singleton='false'>
     <hostRequirements size='1'>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='source' range='0.0.0' optional='true' multiple='true' greedy='false'/>
@@ -263,44 +401,29 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolinge4-biergarten.application' version='0.0.1.201301080950'>
+  <unit id='toolinge4-biergarten.application' version='0.0.1.201301081735'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.application' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.application' version='0.0.1.201301081735'/>
     </provides>
     <requires size='27'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86_64-bundled' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
       <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.gtk.linux.x86' range='[1.1.200.v20121019-144147,1.1.200.v20121019-144147]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.win32.win32.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64.eclipse' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
           (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.gtk.linux.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.win32.win32.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86.eclipse' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86-bundled' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
         </filter>
       </required>
       <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.cocoa.macosx' range='[1.1.200.v20121019-144147,1.1.200.v20121019-144147]'>
@@ -308,22 +431,7 @@
           (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.gtk.linux.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
       <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher' range='[1.3.0.v20120522-1813,1.3.0.v20120522-1813]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64.eclipse' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
       <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.gtk.linux.x86_64' range='[1.1.200.v20121019-144147,1.1.200.v20121019-144147]'>
         <filter>
           (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
@@ -334,22 +442,7 @@
           (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64.eclipse' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86.eclipse' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.gtk.linux.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
         </filter>
@@ -359,29 +452,59 @@
           (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64.eclipse' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
-          (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.win32.win32.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64.eclipse' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86.eclipse' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64.eclipse' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86.eclipse' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86_64-bundled' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
           (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.gtk.linux.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
       <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.win32.win32.x86_64' range='[1.1.200.v20121019-144147,1.1.200.v20121019-144147]'>
@@ -389,152 +512,29 @@
           (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86.eclipse' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-    </requires>
-    <touchpoint id='null' version='0.0.0'/>
-  </unit>
-  <unit id='toolinge4-biergarten.configuration' version='0.0.1.201301080950'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.configuration' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='26'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.equinox.event' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86.eclipse' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.core.runtime' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86-bundled' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+          (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.equinox.ds' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.win32.win32.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.equinox.event' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.equinox.ds' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.cocoa.macosx.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.core.runtime' range='[0.0.1.201301080950,0.0.1.201301080950]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'>
+        <filter>
+          (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.win32.win32.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.gtk.linux.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.ini.cocoa.macosx.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.equinox.event' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.ini.cocoa.macosx.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.gtk.linux.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.cocoa.macosx.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.core.runtime' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.equinox.event' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.equinox.ds' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.core.runtime' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.core.runtime' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.equinox.event' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.equinox.ds' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.equinox.ds' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.equinox.event' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.win32.win32.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.equinox.ds' range='[0.0.1.201301080950,0.0.1.201301080950]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
         </filter>
       </required>
     </requires>
@@ -558,35 +558,6 @@
       <instructions size='1'>
         <instruction key='install'>
 
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinge4-biergarten.executable.cocoa.macosx.x86_64-bundled' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86_64-bundled' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </requires>
-    <filter>
-      (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}, path:Eclipse.app); chmod(targetDir:${installFolder}/Contents/MacOS/, targetFile:eclipse, permissions:755);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
         </instruction>
       </instructions>
     </touchpointData>
@@ -628,18 +599,58 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolinge4-biergarten.executable.win32.win32.x86_64' version='0.0.1.201301080950' singleton='false'>
+  <unit id='toolinge4-biergarten.config.win32.win32.x86_64' version='0.0.1.201301081735' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.win32.win32.x86_64' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301081735'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+        </instruction>
+        <instruction key='configure'>
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:com.platzerworld.e4.biergarten.product);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.ini.cocoa.macosx.x86' version='0.0.1.201301081735' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.ini.cocoa.macosx.x86' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.ini' version='0.0.1.201301081735'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          removeJvmArg(jvmArg:-XstartOnFirstThread);removeJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
+        </instruction>
+        <instruction key='configure'>
+          addJvmArg(jvmArg:-XstartOnFirstThread);addJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.executable.win32.win32.x86_64' version='0.0.1.201301081735' singleton='false'>
     <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
     </hostRequirements>
     <properties size='1'>
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.win32.win32.x86_64' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.win32.win32.x86_64' version='0.0.1.201301081735'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
     </requires>
     <filter>
       (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
@@ -656,7 +667,7 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingwin32.win32.x86org.eclipse.equinox.ds' version='0.0.1.201301080950' singleton='false'>
+  <unit id='toolinggtk.linux.x86_64org.eclipse.equinox.ds' version='0.0.1.201301081735' singleton='false'>
     <hostRequirements size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
@@ -665,11 +676,48 @@
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.equinox.ds' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.equinox.ds' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86_64' version='1.0.0'/>
     </provides>
     <requires size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:3);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingwin32.win32.x86org.eclipse.core.runtime' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.core.runtime' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
     </requires>
     <filter>
@@ -688,140 +736,7 @@
           setStartLevel(startLevel:-1);markStarted(started: false);
         </instruction>
         <instruction key='configure'>
-          setStartLevel(startLevel:3);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinge4-biergarten.config.win32.win32.x86_64' version='0.0.1.201301080950' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.win32.win32.x86_64' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301080950'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
-        </instruction>
-        <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:com.platzerworld.e4.biergarten.product);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='e4-biergarten.executable.gtk.linux.x86' version='0.0.1.201301080950'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='e4-biergarten.executable.gtk.linux.x86' version='0.0.1.201301080950'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-  </unit>
-  <unit id='toolingwin32.win32.x86_64org.eclipse.equinox.ds' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.equinox.ds' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86_64' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:3);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinge4-biergarten.executable.gtk.linux.x86_64' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.gtk.linux.x86_64' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}, targetFile:eclipse, permissions:755);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinge4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </requires>
-    <filter>
-      (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
+          setStartLevel(startLevel:2);markStarted(started: true);
         </instruction>
       </instructions>
     </touchpointData>
@@ -856,43 +771,6 @@
         </instruction>
         <instruction key='configure'>
           addProgramArg(programArg:-startup);addProgramArg(programArg:@artifact);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingwin32.win32.x86org.eclipse.core.runtime' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.core.runtime' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:2);markStarted(started: true);
         </instruction>
       </instructions>
     </touchpointData>
@@ -971,337 +849,7 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='e4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301080950'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='e4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301080950'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-  </unit>
-  <unit id='toolinge4-biergarten.config.gtk.linux.x86' version='0.0.1.201301080950' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.gtk.linux.x86' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301080950'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
-        </instruction>
-        <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:com.platzerworld.e4.biergarten.product);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86_64' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:2);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingwin32.win32.x86_64org.eclipse.equinox.event' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.equinox.event' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86_64' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:3);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinge4-biergarten.ini.cocoa.macosx.x86_64' version='0.0.1.201301080950' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.ini.cocoa.macosx.x86_64' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.ini' version='0.0.1.201301080950'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          removeJvmArg(jvmArg:-XstartOnFirstThread);removeJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
-        </instruction>
-        <instruction key='configure'>
-          addJvmArg(jvmArg:-XstartOnFirstThread);addJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinge4-biergarten.config.cocoa.macosx.x86_64' version='0.0.1.201301080950' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.cocoa.macosx.x86_64' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301080950'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
-        </instruction>
-        <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:com.platzerworld.e4.biergarten.product);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinggtk.linux.x86_64org.eclipse.equinox.event' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.equinox.event' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86_64' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:3);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinge4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </requires>
-    <filter>
-      (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinggtk.linux.x86org.eclipse.core.runtime' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.core.runtime' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:2);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinggtk.linux.x86org.eclipse.equinox.event' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.equinox.event' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:3);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingwin32.win32.x86_64org.eclipse.core.runtime' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.core.runtime' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86_64' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:2);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='e4-biergarten' version='0.0.1.201301080950'>
+  <unit id='e4-biergarten' version='0.0.1.201301081735'>
     <update id='e4-biergarten' range='0.0.0' severity='0'/>
     <properties size='3'>
       <property name='org.eclipse.equinox.p2.name' value='com.platzerworld.e4.biergarten'/>
@@ -1309,47 +857,65 @@
       <property name='org.eclipse.equinox.p2.type.group' value='true'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten' version='0.0.1.201301081735'/>
     </provides>
     <requires size='11'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.configuration' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.common.feature.group' range='[2.9.0.v20121213-0932,2.9.0.v20121213-0932]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='tooling.source.default' range='[1.0.0,1.0.0]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='a.jre.javase' range='[1.6.0,1.6.0]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.e4.rcp.feature.group' range='[1.1.0.v20121025-184438-8yFTeGTCGGduU2UmXjTMpH_GZg,1.1.0.v20121025-184438-8yFTeGTCGGduU2UmXjTMpH_GZg]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='tooling.osgi.bundle.default' range='[1.0.0,1.0.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.platzerworld.e4.biergarten.feature.feature.group' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='tooling.org.eclipse.update.feature.default' range='[1.0.0,1.0.0]'>
         <filter>
           (org.eclipse.update.install.features=true)
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.platzerworld.e4.biergarten.feature.feature.group' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.configuration' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.application' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.application' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.ecore.feature.group' range='[2.9.0.v20121213-0932,2.9.0.v20121213-0932]'/>
       <required namespace='org.eclipse.equinox.p2.iu' name='config.a.jre.javase' range='[1.6.0,1.6.0]'/>
     </requires>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
   </unit>
-  <unit id='e4-biergarten.executable.win32.win32.x86.eclipse' version='0.0.1.201301080950' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86.eclipse' version='0.0.1.201301080950'/>
+  <unit id='toolingwin32.win32.x86_64org.eclipse.equinox.ds' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.equinox.ds' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86_64' version='1.0.0'/>
     </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
     </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpoint id='null' version='0.0.0'/>
     <touchpointData size='1'>
-      <instructions size='2'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
         <instruction key='unconfigure'>
-          setLauncherName()
+          setStartLevel(startLevel:-1);markStarted(started: false);
         </instruction>
         <instruction key='configure'>
-          setLauncherName(name:eclipse)
+          setStartLevel(startLevel:3);markStarted(started: true);
         </instruction>
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingcocoa.macosx.x86org.eclipse.equinox.event' version='0.0.1.201301080950' singleton='false'>
+  <unit id='toolingcocoa.macosx.x86_64org.eclipse.equinox.event' version='0.0.1.201301081735' singleton='false'>
     <hostRequirements size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
@@ -1358,7 +924,223 @@
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.equinox.event' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.equinox.event' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86_64' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:3);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinggtk.linux.x86org.eclipse.equinox.event' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.equinox.event' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:3);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.config.gtk.linux.x86' version='0.0.1.201301081735' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.gtk.linux.x86' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301081735'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+        </instruction>
+        <instruction key='configure'>
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:com.platzerworld.e4.biergarten.product);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.config.cocoa.macosx.x86' version='0.0.1.201301081735' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.cocoa.macosx.x86' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301081735'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+        </instruction>
+        <instruction key='configure'>
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:com.platzerworld.e4.biergarten.product);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingcocoa.macosx.x86org.eclipse.core.runtime' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.core.runtime' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:2);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingwin32.win32.x86_64org.eclipse.equinox.event' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.equinox.event' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86_64' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:3);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.executable.gtk.linux.x86' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.gtk.linux.x86' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}, targetFile:eclipse, permissions:755);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingcocoa.macosx.x86org.eclipse.equinox.event' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.equinox.event' version='0.0.1.201301081735'/>
       <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86' version='1.0.0'/>
     </provides>
     <requires size='2'>
@@ -1386,7 +1168,46 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolinggtk.linux.x86_64org.eclipse.core.runtime' version='0.0.1.201301080950' singleton='false'>
+  <unit id='e4-biergarten.executable.win32.win32.x86' version='0.0.1.201301081735'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='e4-biergarten.executable.win32.win32.x86' version='0.0.1.201301081735'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='e4-biergarten.executable.win32.win32.x86.eclipse' version='0.0.1.201301081735' singleton='false'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86.eclipse' version='0.0.1.201301081735'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setLauncherName()
+        </instruction>
+        <instruction key='configure'>
+          setLauncherName(name:eclipse)
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinggtk.linux.x86org.eclipse.core.runtime' version='0.0.1.201301081735' singleton='false'>
     <hostRequirements size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
@@ -1395,15 +1216,15 @@
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.core.runtime' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86_64' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.core.runtime' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86' version='1.0.0'/>
     </provides>
     <requires size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
     <touchpoint id='null' version='0.0.0'/>
     <touchpointData size='1'>
@@ -1423,96 +1244,20 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolinge4-biergarten.executable.gtk.linux.x86' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.gtk.linux.x86' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}, targetFile:eclipse, permissions:755);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='e4-biergarten.executable.cocoa.macosx.x86.eclipse' version='0.0.1.201301080950' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86.eclipse' version='0.0.1.201301080950'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setLauncherName()
-        </instruction>
-        <instruction key='configure'>
-          setLauncherName(name:eclipse)
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinge4-biergarten.executable.cocoa.macosx.x86-bundled' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86-bundled' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </requires>
-    <filter>
-      (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}, path:Eclipse.app); chmod(targetDir:${installFolder}/Contents/MacOS/, targetFile:eclipse, permissions:755);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingwin32.win32.x86org.eclipse.equinox.event' version='0.0.1.201301080950' singleton='false'>
+  <unit id='toolingwin32.win32.x86org.eclipse.equinox.ds' version='0.0.1.201301081735' singleton='false'>
     <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
     </hostRequirements>
     <properties size='1'>
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.equinox.event' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.equinox.ds' version='0.0.1.201301081735'/>
       <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86' version='1.0.0'/>
     </provides>
     <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
     </requires>
     <filter>
@@ -1532,6 +1277,195 @@
         </instruction>
         <instruction key='configure'>
           setStartLevel(startLevel:3);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.executable.gtk.linux.x86_64' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.gtk.linux.x86_64' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}, targetFile:eclipse, permissions:755);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinggtk.linux.x86_64org.eclipse.equinox.event' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.equinox.event' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86_64' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:3);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </requires>
+    <filter>
+      (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinggtk.linux.x86org.eclipse.equinox.ds' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.equinox.ds' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:3);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.config.gtk.linux.x86_64' version='0.0.1.201301081735' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.gtk.linux.x86_64' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301081735'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+        </instruction>
+        <instruction key='configure'>
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:com.platzerworld.e4.biergarten.product);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='e4-biergarten.executable.gtk.linux.x86_64' version='0.0.1.201301081735'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86_64' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='e4-biergarten.executable.gtk.linux.x86_64' version='0.0.1.201301081735'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='e4-biergarten.executable.win32.win32.x86_64.eclipse' version='0.0.1.201301081735' singleton='false'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64.eclipse' version='0.0.1.201301081735'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setLauncherName()
+        </instruction>
+        <instruction key='configure'>
+          setLauncherName(name:eclipse)
         </instruction>
       </instructions>
     </touchpointData>
@@ -1573,13 +1507,13 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolinge4-biergarten.config.cocoa.macosx.x86' version='0.0.1.201301080950' singleton='false'>
+  <unit id='toolinge4-biergarten.config.cocoa.macosx.x86_64' version='0.0.1.201301081735' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.cocoa.macosx.x86' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.cocoa.macosx.x86_64' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301081735'/>
     </provides>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
@@ -1593,119 +1527,113 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='e4-biergarten.executable.gtk.linux.x86_64.eclipse' version='0.0.1.201301080950' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64.eclipse' version='0.0.1.201301080950'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setLauncherName()
-        </instruction>
-        <instruction key='configure'>
-          setLauncherName(name:eclipse)
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinge4-biergarten.ini.cocoa.macosx.x86' version='0.0.1.201301080950' singleton='false'>
+  <unit id='toolingwin32.win32.x86org.eclipse.equinox.event' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.ini.cocoa.macosx.x86' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.ini' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.equinox.event' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86' version='1.0.0'/>
     </provides>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          removeJvmArg(jvmArg:-XstartOnFirstThread);removeJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
-        </instruction>
-        <instruction key='configure'>
-          addJvmArg(jvmArg:-XstartOnFirstThread);addJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='e4-biergarten.executable.win32.win32.x86_64.eclipse' version='0.0.1.201301080950' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64.eclipse' version='0.0.1.201301080950'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setLauncherName()
-        </instruction>
-        <instruction key='configure'>
-          setLauncherName(name:eclipse)
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='e4-biergarten.executable.win32.win32.x86' version='0.0.1.201301080950'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
     </requires>
     <filter>
       (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
     </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='e4-biergarten.executable.win32.win32.x86' version='0.0.1.201301080950'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-  </unit>
-  <unit id='toolinge4-biergarten.config.gtk.linux.x86_64' version='0.0.1.201301080950' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.gtk.linux.x86_64' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301080950'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpoint id='null' version='0.0.0'/>
     <touchpointData size='1'>
-      <instructions size='2'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
         <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+          setStartLevel(startLevel:-1);markStarted(started: false);
         </instruction>
         <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:com.platzerworld.e4.biergarten.product);
+          setStartLevel(startLevel:3);markStarted(started: true);
         </instruction>
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='e4-biergarten.executable.gtk.linux.x86.eclipse' version='0.0.1.201301080950' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86.eclipse' version='0.0.1.201301080950'/>
+  <unit id='toolingwin32.win32.x86_64org.eclipse.core.runtime' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.core.runtime' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86_64' version='1.0.0'/>
     </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
     </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpoint id='null' version='0.0.0'/>
     <touchpointData size='1'>
-      <instructions size='2'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
         <instruction key='unconfigure'>
-          setLauncherName()
+          setStartLevel(startLevel:-1);markStarted(started: false);
         </instruction>
         <instruction key='configure'>
-          setLauncherName(name:eclipse)
+          setStartLevel(startLevel:2);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinggtk.linux.x86_64org.eclipse.core.runtime' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.core.runtime' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86_64' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:2);markStarted(started: true);
         </instruction>
       </instructions>
     </touchpointData>
@@ -1747,111 +1675,28 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingcocoa.macosx.x86org.eclipse.core.runtime' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.core.runtime' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:2);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingcocoa.macosx.x86org.eclipse.equinox.ds' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.equinox.ds' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:3);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolinge4-biergarten.executable.win32.win32.x86' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
+  <unit id='e4-biergarten.executable.gtk.linux.x86.eclipse' version='0.0.1.201301081735' singleton='false'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.win32.win32.x86' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86.eclipse' version='0.0.1.201301081735'/>
     </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
-    </requires>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder});
+        <instruction key='unconfigure'>
+          setLauncherName()
         </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
+        <instruction key='configure'>
+          setLauncherName(name:eclipse)
         </instruction>
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='e4-biergarten.executable.cocoa.macosx.x86_64.eclipse' version='0.0.1.201301080950' singleton='false'>
+  <unit id='e4-biergarten.executable.cocoa.macosx.x86_64.eclipse' version='0.0.1.201301081735' singleton='false'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64.eclipse' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64.eclipse' version='0.0.1.201301081735'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
@@ -1868,47 +1713,26 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='e4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301080950'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301080950'/>
+  <unit id='e4-biergarten.executable.gtk.linux.x86_64.eclipse' version='0.0.1.201301081735' singleton='false'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64.eclipse' version='0.0.1.201301081735'/>
     </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-    </requires>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='e4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301080950'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setLauncherName()
+        </instruction>
+        <instruction key='configure'>
+          setLauncherName(name:eclipse)
+        </instruction>
+      </instructions>
+    </touchpointData>
   </unit>
-  <unit id='e4-biergarten.executable.win32.win32.x86_64' version='0.0.1.201301080950'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301080950'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86_64' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='e4-biergarten.executable.win32.win32.x86_64' version='0.0.1.201301080950'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-  </unit>
-  <unit id='toolinggtk.linux.x86org.eclipse.equinox.ds' version='0.0.1.201301080950' singleton='false'>
+  <unit id='toolingcocoa.macosx.x86org.eclipse.equinox.ds' version='0.0.1.201301081735' singleton='false'>
     <hostRequirements size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
@@ -1917,15 +1741,15 @@
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.equinox.ds' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.equinox.ds' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86' version='1.0.0'/>
     </provides>
     <requires size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
     <touchpoint id='null' version='0.0.0'/>
     <touchpointData size='1'>
@@ -1941,6 +1765,182 @@
         </instruction>
         <instruction key='configure'>
           setStartLevel(startLevel:3);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.ini.cocoa.macosx.x86_64' version='0.0.1.201301081735' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.ini.cocoa.macosx.x86_64' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.ini' version='0.0.1.201301081735'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          removeJvmArg(jvmArg:-XstartOnFirstThread);removeJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
+        </instruction>
+        <instruction key='configure'>
+          addJvmArg(jvmArg:-XstartOnFirstThread);addJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='e4-biergarten.executable.gtk.linux.x86' version='0.0.1.201301081735'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='e4-biergarten.executable.gtk.linux.x86' version='0.0.1.201301081735'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='toolinge4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </requires>
+    <filter>
+      (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.config.win32.win32.x86' version='0.0.1.201301081735' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.win32.win32.x86' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301081735'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+        </instruction>
+        <instruction key='configure'>
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:com.platzerworld.e4.biergarten.product);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinge4-biergarten.executable.cocoa.macosx.x86_64-bundled' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86_64-bundled' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </requires>
+    <filter>
+      (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}, path:Eclipse.app); chmod(targetDir:${installFolder}/Contents/MacOS/, targetFile:eclipse, permissions:755);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='e4-biergarten.executable.win32.win32.x86_64' version='0.0.1.201301081735'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86_64' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86_64' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='e4-biergarten.executable.win32.win32.x86_64' version='0.0.1.201301081735'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='e4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301081735'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='e4-biergarten.executable.cocoa.macosx.x86_64' version='0.0.1.201301081735'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='e4-biergarten.executable.cocoa.macosx.x86.eclipse' version='0.0.1.201301081735' singleton='false'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86.eclipse' version='0.0.1.201301081735'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setLauncherName()
+        </instruction>
+        <instruction key='configure'>
+          setLauncherName(name:eclipse)
         </instruction>
       </instructions>
     </touchpointData>
@@ -1982,121 +1982,121 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingcocoa.macosx.x86_64org.eclipse.equinox.ds' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+  <unit id='toolinge4-biergarten.executable.cocoa.macosx.x86-bundled' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
     </hostRequirements>
     <properties size='1'>
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.equinox.ds' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86_64' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:3);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingcocoa.macosx.x86_64org.eclipse.equinox.event' version='0.0.1.201301080950' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.equinox.event' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86_64' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.equinox.event' range='1.3.0.v20120925-191900'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:3);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='e4-biergarten.executable.gtk.linux.x86_64' version='0.0.1.201301080950'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.gtk.linux.x86_64' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.cocoa.macosx.x86-bundled' version='0.0.1.201301081735'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86_64' range='0.0.0'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </requires>
+    <filter>
+      (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}, path:Eclipse.app); chmod(targetDir:${installFolder}/Contents/MacOS/, targetFile:eclipse, permissions:755);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='e4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301081735'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301081735'/>
+      <provided namespace='toolinge4-biergarten' name='e4-biergarten.executable' version='0.0.1.201301081735'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx' range='0.0.0'>
         <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
     <artifacts size='1'>
-      <artifact classifier='binary' id='e4-biergarten.executable.gtk.linux.x86_64' version='0.0.1.201301080950'/>
+      <artifact classifier='binary' id='e4-biergarten.executable.cocoa.macosx.x86' version='0.0.1.201301081735'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
   </unit>
-  <unit id='toolinge4-biergarten.config.win32.win32.x86' version='0.0.1.201301080950' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.config.win32.win32.x86' version='0.0.1.201301080950'/>
-      <provided namespace='toolinge4-biergarten' name='e4-biergarten.config' version='0.0.1.201301080950'/>
+  <unit id='toolinge4-biergarten.executable.win32.win32.x86' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinge4-biergarten.executable.win32.win32.x86' version='0.0.1.201301081735'/>
     </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='e4-biergarten.executable.win32.win32.x86' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
+    </requires>
     <filter>
       (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
     </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='2'>
-        <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder});
         </instruction>
-        <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:com.platzerworld.e4.biergarten.product);
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
         </instruction>
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolinggtk.linux.x86_64org.eclipse.equinox.ds' version='0.0.1.201301080950' singleton='false'>
+  <unit id='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' version='0.0.1.201301081735' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86_64' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20121004-163638'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:2);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingcocoa.macosx.x86_64org.eclipse.equinox.ds' version='0.0.1.201301081735' singleton='false'>
     <hostRequirements size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
@@ -2105,15 +2105,15 @@
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.equinox.ds' version='0.0.1.201301080950'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86_64' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.equinox.ds' version='0.0.1.201301081735'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86_64' version='1.0.0'/>
     </provides>
     <requires size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.equinox.ds' range='1.4.100.v20120924-143455'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
     <touchpoint id='null' version='0.0.0'/>
     <touchpointData size='1'>
@@ -2133,17 +2133,17 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='201301080950.e4-biergarten.category' version='1.0.0.0-1cN8yQ677359353I3KC3'>
+  <unit id='201301081735.e4-biergarten.category' version='1.0.0.0-1cN8yQ677359353I5G9C'>
     <properties size='3'>
       <property name='org.eclipse.equinox.p2.name' value='e4 Biergarten Category'/>
       <property name='org.eclipse.equinox.p2.description' value='e4 Biergarten Category'/>
       <property name='org.eclipse.equinox.p2.type.category' value='true'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='201301080950.e4-biergarten.category' version='1.0.0.0-1cN8yQ677359353I3KC3'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201301081735.e4-biergarten.category' version='1.0.0.0-1cN8yQ677359353I5G9C'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.platzerworld.e4.biergarten.feature.feature.group' range='[0.0.1.201301080950,0.0.1.201301080950]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.platzerworld.e4.biergarten.feature.feature.group' range='[0.0.1.201301081735,0.0.1.201301081735]'/>
     </requires>
     <touchpoint id='null' version='0.0.0'/>
   </unit>

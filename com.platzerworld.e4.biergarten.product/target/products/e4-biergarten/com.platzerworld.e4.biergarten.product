@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="com.platzerworld.e4.biergarten" uid="e4-biergarten" id="com.platzerworld.e4.biergarten.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="0.0.1.201301080950" useFeatures="true" includeLaunchers="true">
+<product name="com.platzerworld.e4.biergarten" uid="e4-biergarten" id="com.platzerworld.e4.biergarten.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="0.0.1.201301081735" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -26,7 +26,7 @@
    </plugins>
 
    <features>
-      <feature id="com.platzerworld.e4.biergarten.feature" version="0.0.1.201301080950"/>
+      <feature id="com.platzerworld.e4.biergarten.feature" version="0.0.1.201301081735"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.e4.rcp"/>
       <feature id="org.eclipse.emf.common"/>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='1'>
-  <unit id='com.platzerworld.e4.biergarten.logging.config' version='0.0.1.201301080950' singleton='false'>
-    <update id='com.platzerworld.e4.biergarten.logging.config' range='[0.0.0,0.0.1.201301080950)' severity='0'/>
+  <unit id='com.platzerworld.e4.biergarten.logging.config' version='0.0.1.201301081735' singleton='false'>
+    <update id='com.platzerworld.e4.biergarten.logging.config' range='[0.0.0,0.0.1.201301081735)' severity='0'/>
     <properties size='5'>
       <property name='org.eclipse.equinox.p2.name' value='Config'/>
       <property name='org.eclipse.equinox.p2.provider' value='PLATZERWORLD'/>
@@ -10,22 +10,22 @@
       <property name='maven-version' value='0.0.1-SNAPSHOT'/>
     </properties>
     <provides size='4'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='com.platzerworld.e4.biergarten.logging.config' version='0.0.1.201301080950'/>
-      <provided namespace='osgi.bundle' name='com.platzerworld.e4.biergarten.logging.config' version='0.0.1.201301080950'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.platzerworld.e4.biergarten.logging.config' version='0.0.1.201301081735'/>
+      <provided namespace='osgi.bundle' name='com.platzerworld.e4.biergarten.logging.config' version='0.0.1.201301081735'/>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
-      <provided namespace='osgi.fragment' name='com.platzerworld.e4.biergarten.logging' version='0.0.1.201301080950'/>
+      <provided namespace='osgi.fragment' name='com.platzerworld.e4.biergarten.logging' version='0.0.1.201301081735'/>
     </provides>
     <requires size='1'>
       <required namespace='osgi.bundle' name='com.platzerworld.e4.biergarten.logging' range='0.0.1'/>
     </requires>
     <artifacts size='1'>
-      <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.logging.config' version='0.0.1.201301080950'/>
+      <artifact classifier='osgi.bundle' id='com.platzerworld.e4.biergarten.logging.config' version='0.0.1.201301081735'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='1'>
         <instruction key='manifest'>
-          Bundle-SymbolicName: com.platzerworld.e4.biergarten.logging.config&#xA;Bundle-Version: 0.0.1.201301080950&#xA;Fragment-Host: com.platzerworld.e4.biergarten.logging;bundle-version=&quot;0.0.1&quot;&#xA;
+          Bundle-SymbolicName: com.platzerworld.e4.biergarten.logging.config&#xA;Bundle-Version: 0.0.1.201301081735&#xA;Fragment-Host: com.platzerworld.e4.biergarten.logging;bundle-version=&quot;0.0.1&quot;&#xA;
         </instruction>
       </instructions>
     </touchpointData>
