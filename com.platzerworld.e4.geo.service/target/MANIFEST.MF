@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/component.xml
+Export-Package: com.platzerworld.e4.geo.service.domain,com.platzerworl
+ d.e4.geo.service.interfaces,com.platzerworld.e4.geo.service.util
+Bundle-Vendor: PLATZERWORLD
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 0.0.1.201301080950
+Bundle-Name: Service
+Bundle-ManifestVersion: 2
+Import-Package: org.springframework.web.client,org.springframework.xml
+ .xpath
+Bundle-SymbolicName: com.platzerworld.e4.geo.service
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

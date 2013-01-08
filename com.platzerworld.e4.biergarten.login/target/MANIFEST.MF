@@ -6,7 +6,7 @@ Require-Bundle: org.eclipse.e4.ui.workbench;bundle-version="0.10.2",or
  ices;bundle-version="1.0.0",org.eclipse.e4.ui.workbench.swt;bundle-ve
  rsion="0.10.1"
 Bundle-Vendor: PLATZERWORLD
-Bundle-Version: 0.0.1.201301071351
+Bundle-Version: 0.0.1.201301080950
 Bundle-Name: Login
 Bundle-Activator: com.platzerworld.e4.biergarten.login.Activator
 Bundle-ManifestVersion: 2

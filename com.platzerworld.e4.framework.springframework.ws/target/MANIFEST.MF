@@ -9,7 +9,7 @@ Require-Bundle: com.platzerworld.e4.framework.springframework;bundle-v
  rsion="0.0.1"
 Bundle-Vendor: PLATZERWORLD
 Bundle-ClassPath: lib/spring-ws-1.5.9-all.jar,.
-Bundle-Version: 0.0.1.201301071351
+Bundle-Version: 0.0.1.201301080950
 Eclipse-BuddyPolicy: registered 
 Bundle-Name: Ws
 Bundle-ManifestVersion: 2

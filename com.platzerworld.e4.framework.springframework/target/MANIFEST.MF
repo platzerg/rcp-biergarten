@@ -29,7 +29,7 @@ Export-Package: org.springframework.core,org.springframework.core.anno
 Bundle-Vendor: PLATZERWORLD
 Bundle-ClassPath: .,lib/org.springframework.core-3.0.5.RELEASE.jar,lib
  /org.springframework.web-3.0.5.RELEASE.jar
-Bundle-Version: 0.0.1.201301071351
+Bundle-Version: 0.0.1.201301080950
 Eclipse-BuddyPolicy: registered
 Bundle-Name: Springframework
 Bundle-ManifestVersion: 2

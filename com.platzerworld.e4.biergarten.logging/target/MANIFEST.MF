@@ -3,7 +3,7 @@ Export-Package: org.slf4j
 Bundle-Vendor: PLATZERWORLD
 Bundle-ClassPath: lib/logback-classic-1.0.7.jar,lib/logback-core-1.0.7
  .jar,lib/slf4j-api-1.7.2.jar,.
-Bundle-Version: 0.0.1.201301071351
+Bundle-Version: 0.0.1.201301080950
 Bundle-Name: Logging
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.platzerworld.e4.biergarten.logging

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.database.oracle' version='0.0.1.201301071351'>
+  <artifact classifier='osgi.bundle' id='com.platzerworld.e4.framework.database.oracle' version='0.0.1.201301080950'>
     <properties size='5'>
       <property name='artifact.size' value='1475446'/>
       <property name='download.size' value='1475446'/>

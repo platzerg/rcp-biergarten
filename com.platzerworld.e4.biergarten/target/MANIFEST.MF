@@ -20,7 +20,7 @@ Require-Bundle: org.eclipse.equinox.app;bundle-version="1.3.0",org.ecl
  tabase.oracle;bundle-version="0.0.1"
 Bundle-Vendor: Guenter Platzer
 Bundle-ActivationPolicy: lazy
-Bundle-Version: 0.0.1.201301071351
+Bundle-Version: 0.0.1.201301080950
 Bundle-Name: RCP-E4-Biergarten
 Bundle-Activator: com.platzerworld.e4.biergarten.Activator
 Bundle-ManifestVersion: 2

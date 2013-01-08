@@ -33,6 +33,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.platzerworld.e4.biergarten.model.Biergarten;
+import com.platzerworld.e4.geo.service.interfaces.IGeonameService;
 
 public class DetailsView {
 	private DataBindingContext dbc;
@@ -42,6 +43,9 @@ public class DetailsView {
 	private Text emailText;
 	private static Logger logger = LoggerFactory.getLogger(DetailsView.class);
 
+	@Inject
+	IGeonameService iGeonameService;
+	
 	@Inject
 	public DetailsView(Composite parent) {
 		final Composite composite = new Composite(parent, SWT.NONE);

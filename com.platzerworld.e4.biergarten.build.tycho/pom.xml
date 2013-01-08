@@ -30,6 +30,7 @@
 	<module>
 		../com.platzerworld.e4.biergarten.views.details.test
 	</module>
+	<module>../com.platzerworld.e4.geo.service</module>
 	</modules>
   
   <!-- 	<repositories> -->
