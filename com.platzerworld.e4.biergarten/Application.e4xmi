@@ -27,6 +27,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_JRww6UwtEeK_6K-T51jjeg" elementId="toolbar:org.eclipse.ui.main.toolbar">
         <children xsi:type="menu:HandledToolItem" xmi:id="_JRww6kwtEeK_6K-T51jjeg" iconURI="platform:/plugin/com.platzerworld.e4.biergarten/icons/sample.gif" command="_JRwJ00wtEeK_6K-T51jjeg"/>
         <children xsi:type="menu:HandledToolItem" xmi:id="_JRww60wtEeK_6K-T51jjeg" iconURI="platform:/plugin/com.platzerworld.e4.biergarten/icons/save_edit.gif" command="_JRwJ1kwtEeK_6K-T51jjeg"/>
+        <children xsi:type="menu:ToolControl" xmi:id="_hED20FlyEeKp1Lko2hgklA" elementId="" contributionURI="bundleclass://com.platzerworld.e4.biergarten/com.platzerworld.e4.biergarten.views.CountryComboViewerToolItem"/>
       </children>
     </trimBars>
   </children>
