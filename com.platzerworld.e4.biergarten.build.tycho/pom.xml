@@ -31,6 +31,7 @@
 	<module>../com.platzerworld.e4.geo.service</module>
 	<module>../com.platzerworld.e4.framework.gson</module>
 	<module>../com.platzerworld.e4.google.service</module>
+	<module>../com.platzerworld.e4.framework.jfreechart</module>
 	</modules>
   
   <!-- 	<repositories> -->
