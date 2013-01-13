@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 
-<target name="juno" sequenceNumber="3">
+<target name="juno" sequenceNumber="10">
 <locations>
+<location path="D:\IDE\RCP\p2\home\data\httpd\download.eclipse.org\technology\nebula\snapshot" type="Directory"/>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.equinox.executable.feature.group" version="3.6.0.v20121022-131541-7P7OG2BFLWUl7V5qAyO8JBAAB"/>
 <unit id="org.eclipse.sdk.ide" version="4.3.0.I20121031-2000"/>
 <repository location="http://download.eclipse.org/eclipse/updates/4.3milestones"/>
 </location>
+<location path="D:\IDE\RCP\p2\home\data\httpd\download.eclipse.org\technology\nebula\incubation\snapshot" type="Directory"/>
 </locations>
 </target>

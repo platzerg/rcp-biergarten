@@ -1,5 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.platzerworld.e4.biergarten.views.details.DetailsViewTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.211 sec
-shouldSetContactSelection(com.platzerworld.e4.biergarten.views.details.DetailsViewTest)  Time elapsed: 0.191 sec

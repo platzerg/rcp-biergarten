@@ -23,8 +23,14 @@ import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.ui.services.IServiceConstants;
 import org.eclipse.jface.databinding.swt.SWTObservables;
 import org.eclipse.swt.SWT;
+import org.eclipse.swt.SWTError;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.ole.win32.OLE;
+import org.eclipse.swt.ole.win32.OleAutomation;
+import org.eclipse.swt.ole.win32.OleClientSite;
+import org.eclipse.swt.ole.win32.OleFrame;
+import org.eclipse.swt.ole.win32.Variant;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Label;
@@ -36,11 +42,13 @@ import com.platzerworld.e4.biergarten.model.Biergarten;
 import com.platzerworld.e4.geo.service.interfaces.IGeonameService;
 
 public class DetailsView {
+	static final int Navigate = 0x68;
 	private DataBindingContext dbc;
 	private WritableValue contactValue;
 	private Text firstNameText;
 	private Text lastNameText;
 	private Text emailText;
+	private OleClientSite site;
 	private static Logger logger = LoggerFactory.getLogger(DetailsView.class);
 
 	@Inject
@@ -51,6 +59,27 @@ public class DetailsView {
 		final Composite composite = new Composite(parent, SWT.NONE);
 		composite
 				.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false));
+		
+		
+		 try {
+		      OleFrame frame = new OleFrame(parent, SWT.NONE);
+		      site = new OleClientSite(frame, SWT.NONE, "Excel.Sheet");
+		    } catch (SWTError e) {
+		      System.out.println("Unable to open activeX control");
+		      return;
+		    }
+		
+		 try {
+		      OleFrame frame = new OleFrame(parent, SWT.NONE);
+		      site = new OleClientSite(frame, SWT.NONE, "Shell.Explorer.1");
+		      site.doVerb(OLE.OLEIVERB_INPLACEACTIVATE);
+		      OleAutomation auto = new OleAutomation(site);
+		      auto.invoke(Navigate, new Variant[] { new Variant("c:\\temp") });
+		    } catch (SWTError e) {
+		      System.out.println("Unable to open activeX control");
+		      return;
+		    }
+		
 		composite.setLayout(new GridLayout(2, false));
 		Realm.runWithDefault(SWTObservables.getRealm(Display.getDefault()),
 				new Runnable() {
