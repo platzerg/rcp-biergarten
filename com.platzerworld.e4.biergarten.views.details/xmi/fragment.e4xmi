@@ -3,4 +3,7 @@
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="188321c0-f6a1-4502-8073-f8d9c746dfd8" featurename="children" parentElementId="org.eclipse.e4.tutorial.contacts.partstacks.second">
     <elements xsi:type="basic:Part" xmi:id="89a10afd-b11c-497e-b89f-956997b74293" elementId="DetailsView" contributionURI="bundleclass://com.platzerworld.e4.biergarten.views.details/com.platzerworld.e4.biergarten.views.details.DetailsView" label="Details"/>
   </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_cAl5kF4rEeK_W6DnpPczvA" featurename="children" parentElementId="org.eclipse.e4.tutorial.contacts.partstacks.gpl">
+    <elements xsi:type="basic:Part" xmi:id="_l1T78F4rEeK_W6DnpPczvA" contributionURI="bundleclass://com.platzerworld.e4.biergarten.views.details/com.platzerworld.e4.biergarten.views.details.PieChart" label="GPL"/>
+  </fragments>
 </fragment:ModelFragments>

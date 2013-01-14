@@ -10,6 +10,7 @@
             <tags>codeTag</tags>
           </children>
           <children xsi:type="basic:PartStack" xmi:id="_y6Rd8FjDEeKQRYKjyWE6Nw" elementId="org.eclipse.e4.tutorial.contacts.partstacks.second"/>
+          <children xsi:type="basic:PartStack" xmi:id="_xzpWMF4rEeK_W6DnpPczvA" elementId="org.eclipse.e4.tutorial.contacts.partstacks.gpl"/>
         </children>
       </children>
     </children>

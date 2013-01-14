@@ -32,6 +32,7 @@
 	<module>../com.platzerworld.e4.framework.gson</module>
 	<module>../com.platzerworld.e4.google.service</module>
 	<module>../com.platzerworld.e4.framework.jfreechart</module>
+	<module>../com.platzerworld.e4.framework.javafx</module>
 	</modules>
   
   <!-- 	<repositories> -->
